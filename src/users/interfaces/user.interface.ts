@@ -4,3 +4,5 @@ export type User = {
   password: string;
   name: string | null;
 };
+
+export type UserResponse = { user: Omit<User, 'password'> };

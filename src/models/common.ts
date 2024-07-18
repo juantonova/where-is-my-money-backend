@@ -10,7 +10,7 @@ export const enum AccountType {
 }
 
 export const enum Currency {
-  RUBLE = 'ruble',
-  EURO = 'euro',
-  DOLLAR = 'dollar',
+  RUBLE = 'rub',
+  EURO = 'eur',
+  DOLLAR = 'usd',
 }
